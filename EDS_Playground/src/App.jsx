@@ -12,7 +12,7 @@ function App() {
     <ContextProvider>
       <Root
         brand={brand}
-        className="h-screen w-full flex items-center justify-center"
+        className="h-screen w-full flex flex-col gap-12 items-center justify-center"
         colorScheme="light"
         translations={translations}
       >
